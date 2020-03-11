@@ -26,5 +26,5 @@ Install REST Client extension and test through the test.http file
 
 ### TODO list / What could be different
 
-- [] Move each service into docker containers
-- [] Change communication between server and engine too messaging
+- [ ] Move each service into docker containers
+- [ ] Change communication between server and engine too messaging
