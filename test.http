@@ -1,0 +1,27 @@
+### Get Account. Account Does Exist
+GET http://localhost:5000/account/0
+Authorization: Bearer SuperSecretAuth
+
+### Get Account. Account Does Not Exist
+GET http://localhost:5000/account/1
+Authorization: Bearer SuperSecretAuth
+
+### Update Account With Id 0
+POST http://localhost:5000/update HTTP/1.1
+Authorization: Bearer SuperSecretAuth
+Content-Type: application/json
+
+{
+	"accountID": 0,
+	"value": 600
+}
+
+### Create New Account By Choosing An AccountID That Does Not Exist In The Database
+POST http://localhost:5000/update HTTP/1.1
+Authorization: Bearer SuperSecretAuth
+Content-Type: application/json
+
+{
+	"accountID": 24,
+	"value": 600
+}

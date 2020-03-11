@@ -17,3 +17,14 @@ go run .\server\cmd\server.go
 
 ### Secret Token needed to contact this service
 Authorization: Bearer SuperSecretAuth
+
+
+### Running Tests
+
+Install REST Client extension and test through the test.http file
+
+
+### TODO list / What could be different
+
+[] Move each service into docker containers
+[] Change communication between server and engine too messaging
