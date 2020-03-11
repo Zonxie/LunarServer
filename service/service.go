@@ -1,6 +1,6 @@
 package service
 
-import "LunarAssignment/server/client"
+import "LunarAssignment/LunarServer/client"
 
 type BridgeService struct {
 	client *client.Client

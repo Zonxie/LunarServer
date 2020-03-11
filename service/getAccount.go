@@ -1,7 +1,7 @@
 package service
 
 import (
-	"LunarAssignment/server/model"
+	"LunarAssignment/LunarServer/model"
 )
 
 func (s *BridgeService) GetAccount(id int) (*model.Account, error) {

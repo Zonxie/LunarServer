@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"LunarAssignment/server/model"
+	"LunarAssignment/LunarServer/model"
 	"encoding/json"
 	"log"
 	"net/http"

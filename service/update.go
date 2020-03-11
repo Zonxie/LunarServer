@@ -1,6 +1,6 @@
 package service
 
-import "LunarAssignment/server/model"
+import "LunarAssignment/LunarServer/model"
 
 func (s *BridgeService) Update(account *model.Account) (string, error) {
 

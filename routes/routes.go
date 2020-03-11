@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"LunarAssignment/server/service"
+	"LunarAssignment/LunarServer/service"
 	"fmt"
 	"log"
 	"net/http"

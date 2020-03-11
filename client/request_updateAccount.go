@@ -1,7 +1,7 @@
 package client
 
 import (
-	"LunarAssignment/server/model"
+	"LunarAssignment/LunarServer/model"
 	"bytes"
 	"encoding/json"
 	"fmt"

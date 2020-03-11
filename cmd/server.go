@@ -1,9 +1,9 @@
 package main
 
 import (
-	"LunarAssignment/server/client"
-	"LunarAssignment/server/routes"
-	"LunarAssignment/server/service"
+	"LunarAssignment/LunarServer/client"
+	"LunarAssignment/LunarServer/routes"
+	"LunarAssignment/LunarServer/service"
 )
 
 func main() {
